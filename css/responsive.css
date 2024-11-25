@@ -1,0 +1,213 @@
+
+
+@media screen and (max-width: 991px){
+   .gallery-section .gallery-item,
+   .people-section .people-item,
+   .event-section .event-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    } 
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .day, 
+    .hour,
+    .minute,
+    .second {
+      font-size: 21px;
+   }
+    .day h4, 
+    .hour h4,
+    .minute h4,
+    .second h4{
+      font-size: 14px;
+   }
+   
+   .home-section .home-content h1 {
+        font-size: 3.2rem;
+   }
+
+   .home-section .home-content p {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+  }
+
+  .couple-section .section-title {
+        color: #555;
+        padding: 10px;
+        letter-spacing: 1px;
+  }
+
+  .couple-section .bismillah {
+        width: 80%;
+  }
+
+   .couple-section .couple {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+  }
+
+   .couple-section .couple:nth-child(2) {
+        margin-top: 60px;
+  }
+
+   .couple-section .couple:nth-child(2):before {
+        content: none;
+  }
+   .couple-section .couple i.bxs-heart {
+        display: none;
+   }
+   .couple-section .couple img {
+        max-width: 210px;
+        border: 4px solid transparent;
+   }
+
+   .couple-section .couple h3,
+   .couple-section .couple p {
+        padding: 0 20px 0;
+   }
+
+   .story-section .story-img{
+        margin-top: 20px;
+   }
+
+   .story-section .story-content:before {
+        left: 20px;
+   }
+   .story-section .story-item i {
+        margin-left: -2px;
+        left: 0px;
+        top: -3px;
+        font-size: 2.2rem;
+   }
+   
+   .event-section .event-item,
+   .gift-section .gift-item {
+        padding: 18px 40px;
+   }
+   .event-section .event-item,
+   .story-section .story-text,
+   .story-section .story-img,
+   .gift-section .gift-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 18px 70px;
+   }
+    .story-section .story-item:nth-child(odd) .story-text {
+        padding: 0 15px 0 60px;
+        text-align: left;
+    }
+    .story-section .story-item .story-text p {
+        font-size: 14px;
+    }
+    .story-section .story-item .story-text h3 {
+        font-size: 24px;
+    }
+
+    .story-section .story-item:nth-child(even) .story-img {
+        padding: 0 15px 0 60px;
+        text-align: left;
+    }
+    
+    .event-section .event-item:nth-child(2) {
+        transform: translateY(0px);
+    }
+    .gallery-item {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+        grid-auto-rows: 150px;
+        grid-auto-flow: dense;
+        padding: 0 50px 10px;
+        margin: auto;
+    }
+    .gallery-section, .gallery-item {
+        flex: 0 0 100%;
+        max-width: 100;
+    }
+}
+
+/*@media screen and (min-width: 767.98px){}*/
+
+@media (min-width: 576px) {
+    .nav-list {
+        justify-content: center;
+        column-gap: 3px;
+     }
+    .gallery-section .gallery-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+     }
+}
+     
+     
+@media screen and (max-width: 575.98px) {
+    .home-section .home-content {
+        padding: 5rem 1rem;
+    }
+    
+    .home-section .home-content h1 {
+        font-size: 54px;
+    }
+    
+    .nav-menu {
+        width: 100%;
+        height: 4rem;
+        margin: auto;
+    }
+    .container-day, 
+    .container-hour,
+    .container-minute,
+    .container-second {
+         font-size: 14px;
+    }
+
+    .rsvp-section .form .input-group.w50,
+    .gallery-section .gallery-item,
+    .event-section .event-item-inner,
+    .gift-section .gift-item-inner,
+    .people-section .people-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .event-section .event-item,
+    .gift-section .gift-item{
+        padding: 20px 10px 20px;
+    }
+    .event-section .event-item-inner {
+        border-radius: 5px;
+    }
+    .event-section .event-item-inner h3 {
+        font-size: 18px;
+    }
+    .event-section .event-item-inner span {
+        font-size: 12px;
+    }
+    .event-section .event-item-inner p {
+        font-size: 10px;
+    }
+    .rsvp-section .form {
+        padding: 30px;
+    }
+    .section-title q {
+        font-size: 14px;
+    }
+    .footer .footer-content .couple-name {
+        max-width: 250px;
+        height: 250px;
+    }
+
+    .footer .footer-content .couple-name h2, span{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (min-width: 1014px) {
+   .container {
+        margin: auto;
+    }
+}

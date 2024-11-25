@@ -1,0 +1,52 @@
+
+/* CREAM SECTION */
+.btn-1:hover, .btn-2:hover,
+.people-section .people-item-inner .social-icons a i,
+.event-section .event-item-inner span,
+.story-section .story-item i,
+.story-section .story-text h3,
+.couple-section .social-icons a i,
+.couple-section .couple i.bxs-heart,
+.header .nav ul li a.active, 
+.header .nav ul li a:hover {
+   color: #7D6E83;
+}
+
+.btn-1,
+.event-section .event-item-inner .social-icons a i,
+.people-section .people-item-inner .social-icons a i,
+.event-section .event-item-inner:before,
+.couple-section .couple img,
+.couple-section .social-icons  a i{
+   border-color: #7D6E83;
+}
+
+.btn-1, .btn-2,
+.rsvp-section,
+.event-section .event-item-inner .social-icons a:hover i,
+.people-section .people-item-inner
+.social-icons a:hover i,
+.people-section .filter-btn.active,
+.couple-section .social-icons a:hover i {
+   background-color: #7D6E83;
+}
+
+.header .nav ul li a.active {
+   color: #f9f9f9;
+}
+.header .nav ul li a:hover {
+   color: #514357;
+}
+.event-section.top img{
+   padding: 0;
+}
+
+.event-section,
+.gift-section {
+     background: rgba( 255, 255, 255, 0.15 );
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     backdrop-filter: blur( 8px );
+     -webkit-backdrop-filter: blur( 8px );
+     border-radius: 10px;
+     border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
